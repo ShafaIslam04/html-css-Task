@@ -1,0 +1,240 @@
+.hind-siliguri-regular {
+    font-family: "Hind Siliguri", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.header_img{
+
+    width: 180.88px;
+    height: 90.17px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:52px;
+}
+
+.header-font{
+  font-weight : 700;
+  font-size: 45px;
+  
+  text-align: center;
+  
+
+}
+.header-font p{
+    color: #1B4B36;
+}
+
+.second-div{
+    width: 556px;
+    height: 58px;
+    border-radius: 5px;
+    background-color: #EBFF3B;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 52px;
+}
+.header-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 606px;
+    margin-top: 80px;
+}
+.click-order{
+    width: 560px;
+    height: 80px;
+    border-radius: 45px;
+    border: 1px;
+    background-color: #1B4B36;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+.order{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.order p{
+    font-size: 25px;
+    font-weight: 700;
+    color: #EBFF3B;
+}
+
+.section-one{
+    background-color: #FaFFCE;
+    padding: 90px;
+}
+#smartwatch{
+    color: #1B4B36;
+    font-weight: 700;
+    font-size: 30.64px;
+}
+#smartwatch-1{
+    color: #1B4B36;
+    font-weight: 900;
+    font-size: 30.64px; 
+}
+.container{
+    display: grid;
+    grid-template-columns: 4px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 16px;
+    padding: 16px; 
+  }
+  
+  .grid-item { 
+    text-align: center; 
+    padding: 20px; 
+    border: 2px solid #1B4B36; 
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px; 
+  }
+  
+  .grid-item:hover{
+    background-color: #1B4B36;
+    
+  }
+  .grid-item-text1:hover{
+    color: #EBFF3B;
+  }
+  .grid-item-text1{
+    color: #1B4B36;
+    text-align: center;
+    font-weight: 600;
+  }
+  .grid-item-text2{
+    
+        text-indent: 0px; 
+        text-align: justify;
+        padding: 5px;
+        font-weight: 200;
+      
+  }
+
+  .experience{
+    text-align: center;
+    font-weight: 900;
+    font-size:40px ;
+  }
+
+  .grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 16px;
+    padding: 100px;
+  }
+
+  .grid-item2 { 
+    text-align: center; 
+    padding: 3px; 
+    border: 2px solid #1B4B36; 
+    border-radius: 20px;
+    background-color: #1B4B36;
+   
+    
+  }
+
+  .grid-item2 h4{
+    text-align: left;
+    padding: 5px;
+    font-weight: 900;
+    font-size: 35px;
+    color: white;
+  }
+
+  .grid-item2 h5{
+    text-align: right;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #EBFF3B ;
+  }
+
+  .grid-item2 p{
+    color: aliceblue;
+  }
+
+  .click-order2{
+    width: 616px;
+    height: 90px;
+    border-radius: 45px;
+    border: 1px;
+    background-color: #EBFF3B;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    
+}
+.order2{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.order2 p{
+    font-size: 30px;
+    font-weight: 700;
+    color: #1B4B36
+}
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+
+    .grid-container2{
+        grid-template-columns: repeat(2, 1fr);   
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .grid-container {
+      grid-template-columns: 1fr; 
+    }
+    .grid-container2 {
+        grid-template-columns: 1fr; 
+      }
+  }
+  
+  .footer{
+    background-color: black;
+    color: azure;
+    height: 300px;
+    padding: 10px;
+    
+  }
+  .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .number{
+    text-align: center;
+  }
+ .logo{
+    width: 80px;
+    height: 30px;
+ }
+ .last-content{
+    text-align: center;
+    margin-top:150px
+ }
